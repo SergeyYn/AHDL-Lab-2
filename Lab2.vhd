@@ -47,7 +47,20 @@ end nor3;
 							   
 
 //insert architectures here
+architecture and3 of and3 is
+begin						  
+	out1 <= in1 and in2 and in3 after 20 ns;	
+end and3; 
 
+architecture not1 of not1 is
+begin		  
+	out1 <= not in1 after 20 ns;   
+end not1;
+
+architecture nor3 of nor3 is
+begin
+	out1 <= (not (in1 or in2 or in3)) after 100 ns; 
+end nor3;
 
 //END INSERTIONS
 
