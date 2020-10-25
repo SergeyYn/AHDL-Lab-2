@@ -34,8 +34,16 @@ entity not1 is
 end not1;  
 
 
-//insert nor3 entity here
-
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity nor3 is
+	 port(
+		 in1 : in STD_LOGIC;
+		 in2 : in STD_LOGIC; 
+		 in3 : in STD_LOGIC;
+		 out1 : out STD_LOGIC
+	     );
+end nor3;
 							   
 
 //insert architectures here
