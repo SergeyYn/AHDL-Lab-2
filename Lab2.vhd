@@ -24,9 +24,14 @@ end and3;
 
 
 
-//insert not1 entity here
-
-
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity not1 is
+	 port(
+		 in1 : in STD_LOGIC;
+		 out1 : out STD_LOGIC
+	     );
+end not1;  
 
 
 //insert nor3 entity here
