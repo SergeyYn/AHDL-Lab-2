@@ -10,7 +10,17 @@ entity Var6 is
 	     );
 end Var6;			 
 
-//insert and3 entity here
+	
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity and3 is
+	 port(
+		 in1 : in STD_LOGIC;
+		 in2 : in STD_LOGIC; 
+		 in3 : in STD_LOGIC;
+		 out1 : out STD_LOGIC
+	     );
+end and3;
 
 
 
